@@ -10,7 +10,7 @@ module.exports = {
         return arg1.filter(Boolean);
     },
 
-    indexEqualsValue: function (array){
+    createPhoneNumber: function (array){
         let answer = "(xxx) xxx-xxxx";
         
         for(i=0; i<array.length; i++){
